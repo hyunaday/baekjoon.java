@@ -9,17 +9,17 @@ public class Main {
 		int y = in.nextInt();
 
 		if(x > 0) {
-            if(y > 0) { 
-                System.out.println(1);
-        }
-            else{ System.out.println(4);
-                      }
+            if(y > 0) {
+                System.out.println(1);}
+        
+            else {System.out.println(4);
+                     }
         }
 		if(x < 0) {
-            if(y > 0) { System.out.println(2);
-                    }
-            else { System.out.println(3);
-                      }
+            if(y > 0){ System.out.println(2);}
+                    
+            else {System.out.println(3);}
+                      
         }
 
 
